@@ -257,8 +257,8 @@ function Navbar() {
         </ul>
       </nav>
       <div className={styles.scrollText}>
-        <marquee >
-        {/* behavior="scroll" */}
+        <marquee behavior="scroll" >
+        
           {alerts.map((alert, index) => ( 
             <span
               key={index}
